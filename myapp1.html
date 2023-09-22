@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your HTML Document</title>
+    <style>
+        /* Style for the entire page background on desktop */
+        body {
+            background-color: yellow; /* Set the background color to yellow */
+            margin: 0; /* Remove default margin to align the content properly */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        /* Style for the containing div */
+        .image-container {
+            position: relative;
+            text-align: center;
+            height: 1000px;
+        }
+
+        /* Style for the main overlay text */
+        .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+            color: #ffffff; /* White text color */
+            width: 567px; /* Wider width */
+            height: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px; /* Adjust text size */
+            font-weight: bold; /* Bold text */
+            text-align: center; /* Center-align text */
+            border: 2px solid #ffffff; /* White border */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        /* Style for the top overlay text */
+        .top-overlay-text {
+            position: absolute;
+            top: 140px; /* Adjust top position as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+            color: #ffffff; /* White text color */
+            padding: 10px; /* Add padding to the text */
+            font-size: 16px; /* Adjust text size */
+            font-weight: bold; /* Bold text */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        .top-overlay-text1 {
+            position: absolute;
+            top: 244px; /* Adjust top position as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+            color: #ffffff; /* White text color */
+            padding: 10px; /* Add padding to the text */
+            font-size: 16px; /* Adjust text size */
+            font-weight: bold; /* Bold text */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        .overlay-text1 {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+            color: #ffffff; /* White text color */
+            width: 80px; /* Wider width */
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px; /* Adjust text size */
+            font-weight: bold; /* Bold text */
+            text-align: center; /* Center-align text */
+            border: 2px solid #ffffff; /* White border */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 767px) {
+            body {
+                background-image: url('https://drive.google.com/uc?id=1Q0MhDMYaRPO1I7GZHrWbyZkRX1ee5XVo'); /* Replace with the URL of your mobile background image */
+                background-size: cover; /* Cover the entire viewport */
+                background-repeat: no-repeat; /* Prevent image from repeating */
+            }
+
+            /* Reset styles for the image container */
+            .image-container {
+                height: auto;
+            }
+
+            /* Reset styles for overlay text */
+            .overlay-text,
+            .top-overlay-text,
+            .top-overlay-text1,
+            .overlay-text1 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="image-container">
+        <img src="https://drive.google.com/uc?id=1Q0MhDMYaRPO1I7GZHrWbyZkRX1ee5XVo" alt="Your Image Description">
+	<span class="top-overlay-text">||న్యూ దిల్‍సుఖ్‍నగర్ యూత్ అస్సోసియేషన్ వారి అన్నదాన కార్యక్రమ ఆహ్వానం||</span>
+	<span class="top-overlay-text1">||ఓం గణేశాయ నమః ||</span>
+        <span class="overlay-text">ఆదివారం అనగా 24-09-2023 మధ్యాహ్నం మన వినాయకుడి దెగ్గర అన్నదాన కార్యాక్రమం జరగబోతున్నది .
+            కావున మీరు అందరు కుటుంబ సమేతంగా వచ్చి స్వామివారి అన్నప్రసాదం స్వీకరించి స్వామి వారి కృపకు పాత్రులు కావాల్సిందిగా కోరుకొంటున్నము.
+            <a class="overlay-text1" href="https://maps.google.com/?q=17.372486,78.528702" target="_blank">Location</a>
+       </span>
+	
+    </div>
+    </div>
+
+
+</body>
+</html>
